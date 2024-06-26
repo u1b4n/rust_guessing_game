@@ -1,0 +1,9 @@
+# interesting information about the fields in this toml: https://doc.rust-lang.org/cargo/reference/manifest.html#the-version-field
+
+[package]
+name = "rust_guessing_game"
+version = "1.0.0" # uses semantic versioning
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
